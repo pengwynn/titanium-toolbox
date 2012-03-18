@@ -5,7 +5,7 @@ class Contact extends Spine.Model
 
   @configure 'Contact', 'first_name', 'last_name'
 
-  @extend Spind.Model.Parse
+  @extend Spine.Model.Parse
 
 
 c = Contact.create first_name: 'Bob', last_name: 'Wiley'
